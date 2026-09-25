@@ -1,0 +1,2 @@
+# Customer Churning Prediction
+A machine learning project that predicts whether a telecom customer is likely to churn. The project includes data cleaning, categorical encoding, exploratory analysis, Logistic Regression and Random Forest models, model comparison, and a deployed Streamlit app for real-time predictions.  Tech Stack: Python, Pandas, Scikit-learn, Streamlit, Pickle Models: Logistic Regression, Random Forest Deployment: Streamlit Cloud
