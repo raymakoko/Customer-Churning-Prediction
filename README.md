@@ -41,5 +41,13 @@ streamlit run Churn_app.py
 - Matplotlib and Seaborn
 - Streamlit
 
+## Priority improvements
+1. Evaluate the model properly: report churn precision/recall, F1, ROC-AUC, and PR-AUC—not accuracy alone.
+2. Tune for your goal: use cross-validation and choose a prediction threshold that balances missed churners against false alarms.
+3. Compare stronger models: try XGBoost, LightGBM, or CatBoost against your current models.
+4. Polish the app: show clear risk levels and explain the main factors behind each prediction.
+5. Make it reproducible: add basic tests, document setup and limitations, and organize the training and app code. 
+
+
 ## License
 This project is licensed under the MIT License.
